@@ -1,6 +1,6 @@
-# html-fund-me-cu
+# html-fund-me
 
-*[⭐️ (2:37:02) | Lesson 8: HTML Fund Me](https://www.youtube.com/watch?v=sas02qSFZ74&t=9422s)*
+ *[HTML Fund Me](https://www.youtube.com/watch?v=sas02qSFZ74&t=9422s)*
 
 You can usually just double click the file to "run it in the browser". Or you can right click the file in your VSCode and run "open with live server" if you have the live server VSCode extension (ritwickdey.LiveServer).
 
@@ -55,7 +55,7 @@ make deploy-zk
 
 This will deploy a sample contract and start a local zkSync node.
 
-1. Update your `constants.js` with the new contract address.
+1. Update yor `constants.js` with the new contract address.
 
 In your `constants.js` file, update the variable `contractAddress` with the address of the deployed "FundMe" contract. You'll see it after you run `make deploy-zk`.
 
@@ -63,8 +63,6 @@ In your `constants.js` file, update the variable `contractAddress` with the addr
 
 > [IMPORTANT] **PLEASE USE A METAMASK ACCOUNT THAT ISNT ASSOCIATED WITH ANY REAL MONEY.**
 > I usually use a few different browser profiles to separate my Metamasks easily.
-
-Import the `DEFAULT_ZKSYNC_LOCAL_KEY` from the `Makefile` of the `foundry-fund-me-f23` repo and [import it into your metamask.](https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account)
 
 Additionally, add your zkSync node with chainid `260` to your metamask.
 
