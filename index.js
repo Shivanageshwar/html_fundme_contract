@@ -62,7 +62,7 @@ async function fund() {
       console.log(error)
     }
   } else {
-    fundButton.innerHTML = "Please install MetaMask"
+    fundButton.innerHTML = "Please you must install MetaMask"
   }
 }
 
@@ -76,6 +76,6 @@ async function getBalance() {
       console.log(error)
     }
   } else {
-    balanceButton.innerHTML = "Please install MetaMask"
+    balanceButton.innerHTML = "Please you must install MetaMask"
   }
 }
